@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "brittleanvil",
+  "version": "${version}",
+  "name": "Brittle Anvil",
+  "description": "A very damaged anvil is guaranteed to break after a single use.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["brittleanvil.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "~1.17",
+    "java": ">=16"
+  }
+}
